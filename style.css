@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Black+And+White+Picture&display=swap');
+
+
+.container{
+    padding: 0;
+    border-radius: 3px;
+    margin-top: 50px;
+     margin-left: 90px;
+    background-color: rgb(236, 215, 215);
+    display: flex;
+    max-width: 70%;
+    height: 340px;
+    box-shadow: 10px 14px 12px rgba(48, 84, 25, 0.194);
+
+}
+img{
+    margin-top: 15px;
+    width: 90%;
+    height: fit-content;
+    transition: 3s;
+    opacity: 90%;
+ 
+}
+
+.side2{
+    margin-top: 70px;
+    
+}
+h2 {
+    font-family: 'Amatic SC', cursive;
+font-family: 'Black And White Picture', sans-serif;
+}
+
+p{
+    font-variant: small-caps;
+}
+img:hover{
+    transform: scale(1.2);
+    border-radius: 40px;
+    box-shadow:10px 14px 12px rgba(43, 10, 10, 0.436); ;
+    visibility: visible;
+    opacity: 100%;
+}
